@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #0f62fe;
+  --color-brand-hover: #0353e9;
+  --color-canvas: #161616;
+  --color-surface: #262626;
+  --color-surface-2: #333333;
+  --color-line: #393939;
+  --color-muted: #a8a8a8;
+  --font-sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+}
+
+body {
+  background-color: var(--color-canvas);
+  color: #f4f4f4;
+  font-family: var(--font-sans);
+}
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { scrollbar-width: none; }
